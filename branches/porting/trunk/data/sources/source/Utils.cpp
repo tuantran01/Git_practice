@@ -35,8 +35,8 @@ bool Utils::IsRectIntersectRect(Rect r1, Rect r2)
 	return false;
 }
 
-int Utils::Random(int min, int max)
+int Utils::random(int min, int max)
 {
-	int random = rand() % (max - min + 1) + min;
-	return random;
+int random = rand() % max + min;
+return random;
 }
