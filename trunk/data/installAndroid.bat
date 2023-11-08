@@ -20,5 +20,6 @@ call install.bat %CONFIG%
 popd
 popd
 
+echo hello
 echo.
 pause

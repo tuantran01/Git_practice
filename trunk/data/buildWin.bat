@@ -9,4 +9,6 @@ call win_build.bat %1 %2 %3 %4
 
 popd
 
+echo hello
+
 :end
