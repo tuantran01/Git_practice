@@ -1,3 +1,32 @@
+diff --git a/patches/patch_trunk.patch b/patches/patch_trunk.patch
+index b884b43..e69de29 100644
+--- a/patches/patch_trunk.patch
++++ b/patches/patch_trunk.patch
+@@ -1,24 +0,0 @@
+-diff --git a/trunk/data/buildWin.bat b/trunk/data/buildWin.bat
+-index 3083f60..82effed 100644
+---- a/trunk/data/buildWin.bat
+-+++ b/trunk/data/buildWin.bat
+-@@ -9,4 +9,6 @@ call win_build.bat %1 %2 %3 %4
+- 
+- popd
+- 
+-+echo hello
+-+
+- :end
+-\ No newline at end of file
+-diff --git a/trunk/data/installAndroid.bat b/trunk/data/installAndroid.bat
+-index 27608d4..f55637b 100644
+---- a/trunk/data/installAndroid.bat
+-+++ b/trunk/data/installAndroid.bat
+-@@ -20,5 +20,6 @@ call install.bat %CONFIG%
+- popd
+- popd
+- 
+-+echo hello
+- echo.
+- pause
+-\ No newline at end of file
 diff --git a/trunk/data/buildWin.bat b/trunk/data/buildWin.bat
 index 3083f60..82effed 100644
 --- a/trunk/data/buildWin.bat
@@ -22,3 +51,19 @@ index 27608d4..f55637b 100644
  echo.
  pause
 \ No newline at end of file
+diff --git a/trunk/data/sources/source/Utils.cpp b/trunk/data/sources/source/Utils.cpp
+index 13a00b9..f699ad1 100644
+--- a/trunk/data/sources/source/Utils.cpp
++++ b/trunk/data/sources/source/Utils.cpp
+@@ -39,4 +39,9 @@ int Utils::Random(int min, int max)
+ {
+ 	int random = rand() % (max - min + 1) + min;
+ 	return random;
+-}
+\ No newline at end of file
++}
++
++int Add(int a, int b)
++{
++return a + b;
++}
