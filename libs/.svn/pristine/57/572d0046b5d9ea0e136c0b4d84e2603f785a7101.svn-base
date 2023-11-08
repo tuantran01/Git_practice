@@ -1,0 +1,8 @@
+MIDlet-Name: GLLib
+MIDlet-Version: 0.11.26
+MIDlet-Vendor: Gameloft SA
+MIDlet-Jar-URL: GLLib.jar
+MIDlet-Jar-Size: 0
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+RIM-Library-Flags: 2
