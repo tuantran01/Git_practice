@@ -22,19 +22,3 @@ index 27608d4..f55637b 100644
  echo.
  pause
 \ No newline at end of file
-diff --git a/trunk/data/sources/source/Utils.cpp b/trunk/data/sources/source/Utils.cpp
-index 13a00b9..f699ad1 100644
---- a/trunk/data/sources/source/Utils.cpp
-+++ b/trunk/data/sources/source/Utils.cpp
-@@ -39,4 +39,9 @@ int Utils::Random(int min, int max)
- {
- 	int random = rand() % (max - min + 1) + min;
- 	return random;
--}
-\ No newline at end of file
-+}
-+
-+int Add(int a, int b)
-+{
-+return a + b;
-+}
